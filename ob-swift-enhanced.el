@@ -1,3 +1,13 @@
 (require 'ob-swift)
+(require 'ios-device)
+(require 'ios-simulator)
+(require 'model-line-hud)
+(require 'periphery-helper)
+(require 'spinner)
+(require 'swift-additions)
+(require 'swift-refactor)
+(require 'xcode-additions)
+(require 'xcode-build)
+(require 'xcodebuildserver)
 
 (provide 'ob-swift-enhanced)

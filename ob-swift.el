@@ -1,5 +1,4 @@
 (require 'ob)
-(require 'swift-mode)
 
 (defgroup ob-swift nil
   "Org Mode blocks for Swift."
@@ -8,7 +7,7 @@
 
 (defvar ob-swift-repl-executable "swift repl")
 
-(defcustom ob-swift-executable swift-mode:repl-executable
+(defcustom ob-swift-executable "swift"
   "Swift REPL executable for ob-swift."
   :type 'string
   :safe #'stringp

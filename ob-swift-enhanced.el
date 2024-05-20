@@ -1,9 +1,11 @@
 (require 'ob-swift)
+
+(require 'spinner)
+(require 'periphery)
 (require 'ios-device)
 (require 'ios-simulator)
-(require 'model-line-hud)
+(require 'mode-line-hud)
 (require 'periphery-helper)
-(require 'spinner)
 (require 'swift-additions)
 (require 'swift-refactor)
 (require 'xcode-additions)
